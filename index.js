@@ -5,7 +5,7 @@ const { Client } = require('discord.js-selfbot-v11')
 const client = new Client();
 
 client.on('ready', () => { 
-  client.user.setActivity("Cyberpunk 2077", { type: "PLAYING"})
+  client.user.setActivity("Naruto 2002", { type: "PLAYING"})
    console.log(`${client.user.username} Successfully Logged in!`)
 })
 
